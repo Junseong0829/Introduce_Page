@@ -7,7 +7,7 @@ function Profile(){
             <div class="container">
                 <img src= "http://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-11.JPG" className="image" />
                 <div class="text">
-                    <p>🐣 학번 / 이름 : 20215166 이준성 ㅠㅠ</p>
+                    <p>🐣 학번 / 이름 : 20215166 이준성</p>
                     <p>🐣 생일 : 2002년 08월 29일</p>
                     <p>🐣 MBTI : INFJ</p>
                     <p>🐣 동아리 : 🐱InfoTeam, 🔥Ignition(이었던 것)</p>
@@ -25,7 +25,7 @@ function Profile(){
             <h2>➡️ 항상 매년 1~2번은 가는 것 같아요! 올해 겨울에 같이 고고~?</h2>
             <div class="container2">
                 <img style={{height:"645px", width:"450px"}}src={"./Introduce_Page/images/4-7.jpeg"} className="image" />
-                <img style={{height:"645px", width:"450px"}}src={"./Introduce_Page/images/4-8.jpg"} className="image" />
+                <img style={{height:"645px", width:"450px"}}src="https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/4-8.JPG" className="image" />
                 <div>
                     <img src="./Introduce_Page/images/2-15.jpeg" className="image" />
                     <img src="./Introduce_Page/images/4-11.jpeg" className="image" />
@@ -34,17 +34,17 @@ function Profile(){
             <h1>🁢 취미_노래방</h1>
             <h2>➡️ 이미 몇몇 분들에겐 공개했지만....!! 랩 하는거 좋아합니다 :) 아래는 고등학교 힙동 사진이예요</h2>
             <div class="container2">
-                <img src={"./Introduce_Page/images/4-4.jpeg"} className="image2" />
-                <img src={"./Introduce_Page/images/4-3.jpeg"} className="image2" />
+                <img src="https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/4-4.JPEG" className="image2" />
+                <img src="https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/4-3.JPEG" className="image2" />
             </div>
             <h1>🁢 취미_방탈출</h1>
             <h2>➡️ 잘하진 않고 주로 잘하는 친구들 버스 타서 탈출 당하는 거 좋아합니다 😏</h2>
             <div class="container2">
                 <div>
-                    <img src={"./Introduce_Page/images/4-10.jpg"} className="image2" />
-                    <img src={"./Introduce_Page/images/2-12.jpg"} className="image2" />
+                    <img src="https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/4-10.JPG" className="image2" />
+                    <img src="https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-12.JPG" className="image2" />
                 </div>
-                <img style={{height:"720px", width:"520px"}}src={"./Introduce_Page/images/4-9.jpg"} className="image" />
+                <img style={{height:"720px", width:"520px"}}src="https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/4-9.JPG" className="image" />
             </div>
         </>
     )

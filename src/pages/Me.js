@@ -3,23 +3,23 @@ import {Link} from "react-router-dom";
 import "./Me.css";
 
 const images = [
-    `${process.env.PUBLIC_URL}/images/2-1.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-2.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-3.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-4.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-5.jpg`,
-    `${process.env.PUBLIC_URL}/images/4-1.jpg`,
-    `${process.env.PUBLIC_URL}/images/4-2.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-6.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-8.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-9.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-10.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-13.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-14.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-16.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-17.jpg`,
-    `${process.env.PUBLIC_URL}/images/2-18.png`,
-    `${process.env.PUBLIC_URL}/images/4-6.jpeg`,
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-1.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-2.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-3.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-4.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-5.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/4-1.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/4-2.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-6.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-8.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-9.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-10.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-13.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-14.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-16.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-17.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-18.PNG",
+    "https://github.com/Junseong0829/Introduce_Page/blob/main/public/images/4-6.jpeg?raw=true",
 ]
 
 const Me = () => {
@@ -31,7 +31,7 @@ const Me = () => {
     setTimeout(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
       setFade(false);
-    }, 300); // 페이드 효과 시간과 맞춤
+    }, 300);
   };
 
   const prevImage = () => {

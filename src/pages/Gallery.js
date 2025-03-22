@@ -7,7 +7,7 @@ function Gallery(){
         <>
             <div style={{marginBottom:"30px"}}>
                 <h1>🁢 하나를 고르세요!</h1>
-                <h2>➡️ 부끄러우니 너무 자세힌 보지 마세요 ^^</h2>
+                <h2>➡️ 부끄러우니 너무 자세힌 보지 마세요 ^^..</h2>
             </div>
             <div class="container4">
                 <Link to="Cat" style={{textDecoration:"none"}}>

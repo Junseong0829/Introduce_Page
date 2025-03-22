@@ -3,19 +3,19 @@ import {Link} from "react-router-dom";
 import "./Cat.css";
 
 const images = [
-    `${process.env.PUBLIC_URL}/images/1-1.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-2.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-3.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-4.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-5.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-6.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-7.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-8.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-11.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-9.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-10.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-12.jpg`,
-    `${process.env.PUBLIC_URL}/images/1-13.jpg`,
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-1.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-2.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-3.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-4.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-5.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-6.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-7.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-8.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-11.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-9.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-10.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-12.JPG",
+    "https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/1-13.JPG",
 ]
 
 const Cat = () => {
@@ -27,7 +27,7 @@ const Cat = () => {
     setTimeout(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
       setFade(false);
-    }, 300); // 페이드 효과 시간과 맞춤
+    }, 300);
   };
 
   const prevImage = () => {

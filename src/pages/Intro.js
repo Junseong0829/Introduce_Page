@@ -6,7 +6,7 @@ function Intro(){
         <>
             <h1 style={{textAlign:"left"}}>🁢 Intro  </h1>
             <div class="container">
-                <img src="./Introduce_Page/images/2-7.jpeg" className="image" />
+                <img src="https://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-7.JPEG" className="image" />
                 <div class="text">
                     <p style={{margin:"20px", marginLeft:"0px"}}>안녕하세요! 🤭 저는 21학번 이준성이구요..!</p>
                     <p>✅ GIST에서 전기전자컴퓨터공학과를 전공하고 있어요</p>
