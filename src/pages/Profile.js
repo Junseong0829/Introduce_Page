@@ -5,9 +5,9 @@ function Profile(){
         <>
             <h1>🁢 Profile  </h1>
             <div class="container">
-                <img src= "./Introduce_Page/images/2-11.jpg" className="image" />
+                <img src= "http://raw.githubusercontent.com/Junseong0829/Introduce_Page/refs/heads/main/public/images/2-11.JPG" className="image" />
                 <div class="text">
-                    <p>🐣 학번 / 이름 : 20215166 이준성</p>
+                    <p>🐣 학번 / 이름 : 20215166 이준성 ㅠㅠ</p>
                     <p>🐣 생일 : 2002년 08월 29일</p>
                     <p>🐣 MBTI : INFJ</p>
                     <p>🐣 동아리 : 🐱InfoTeam, 🔥Ignition(이었던 것)</p>
