@@ -1,0 +1,33 @@
+.container4{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items:center;
+    align-items: center;
+    text-align: center;
+    gap:20px;
+}
+.cat-link {
+    width: 500px;
+    height: 200px;
+    background-color: #ff7f50; /* 배경색 */
+    color: white; /* 글씨 색 */
+    font-size: 30px; /* 글씨 크기 */
+    font-weight: bold; /* 글씨 굵게 */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; /* 수직, 수평 중앙 정렬 */
+    border-radius: 10px; /* 둥근 모서리 */
+    cursor: pointer; /* 마우스 커서가 손가락 모양으로 변경 */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    transition: transform 0.2s, background-color 0.3s; /* 부드러운 전환 효과 */
+    text-decoration: none;
+}
+
+.cat-link p {
+    margin: 0; /* p 태그 기본 마진 제거 */;
+}
+
+.cat-link:hover {
+    background-color: #ff6347; /* 마우스 오버 시 배경색 변경 */
+    transform: scale(1.05); /* 클릭 시 버튼 크기 커짐 */
+}
